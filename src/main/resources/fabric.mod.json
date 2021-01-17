@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "peacefulskeletons",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Peaceful Skeletons",
+  "description": "They're just plain annoying.",
   "authors": [
-    "Me!"
+    "FallingAnvils"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/FallingAnvils/peacefulskeletons"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/peacefulskeletons/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.fallinganvils.peacefulskeletons.PeacefulSkeletonsMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "peacefulskeletons.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": ">=1.13"
   },
   "suggests": {
     "another-mod": "*"
